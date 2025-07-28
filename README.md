@@ -23,7 +23,7 @@
   
 </div>
 
-![Snake Animation]([https://github.com/GabrielBigarato](https://github.com/GabrielBigarato/GabrielBigarato/blob/main/github-contribution-grid-snake-dark.svg))
+![Snake Animation](https://github.com/GabrielBigarato/GabrielBigarato/blob/main/github-contribution-grid-snake-dark.svg)
 
 README.md
 3 KB
