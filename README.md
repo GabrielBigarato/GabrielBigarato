@@ -9,7 +9,7 @@
 
 <div style="display: inline_block"><br>
   
-  <img align="center" alt="Js" height="40" width="300" src="https://skillicons.dev/icons?i=java,javascript,python,html5,css3,kotlin,">
+  <img align="center" alt="Js" height="40" width="300" src="https://skillicons.dev/icons?i=java,javascript,python,html,css,kotlin,">
   
 </div>
 
