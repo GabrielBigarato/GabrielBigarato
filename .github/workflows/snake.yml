@@ -1,22 +1,24 @@
 name: Generate Snake
 
+# ✅ Adicione esta linha abaixo de `name`
+permissions:
+  contents: write  # <--- Isso permite que o workflow faça push na branch "output"
+
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # Executa todos os dias à meia-noite
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: GabrielBigarato
           outputs: |
             dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Commit and push SVG
         uses: crazy-max/ghaction-github-pages@v4
