@@ -3,8 +3,7 @@
 ## É um prazer enorme ter você por aqui! Não esquece de dar uma olhada nos projetos!!
 
 <a href="https://github.com/GabrielBigarato">
-<img height="170cm" src="https://github-readme-stats.vercel.app/api?username=GabrielBigarato&show_icons=true">
-<img height="170cm" src="https://github-readme-stats.vercel.app/api?username=GabrielBigarato&show_icons=true&theme=dracula">
+<img height="170cm" src="https://github-readme-stats.vercel.app/api?username=GabrielBigarato&show_icons=true&theme=radical">
 
 
 <div style="display: inline_block"><br>
