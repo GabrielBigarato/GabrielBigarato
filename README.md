@@ -21,5 +21,3 @@
 
 ![Snake Animation](https://github.com/GabrielBigarato/GabrielBigarato/blob/main/github-contribution-grid-snake-dark.svg)
 
-README.md
-3 KB
