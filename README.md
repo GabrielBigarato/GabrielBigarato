@@ -22,5 +22,6 @@
   
 </div>
 
-![Snake Animation](https://github.com/GabrielBigarato/GabrielBigarato/blob/main/github-contribution-grid-snake-dark.svg)
+![Snake Animation](https://raw.githubusercontent.com/GabrielBigarato/GabrielBigarato/output/github-contribution-grid-snake.svg)
+
 
