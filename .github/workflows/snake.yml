@@ -1,15 +1,14 @@
-
 name: Generate Snake
 
 on:
-  workflow_dispatch:
-
   schedule:
-    - cron: "0 0 * * *"  # Roda diariamente à meia-noite (UTC)
+    - cron: "0 0 * * *" # Roda todo dia à meia-noite (UTC)
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v3
