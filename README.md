@@ -22,6 +22,9 @@
   
 </div>
 
-![Snake Animation](https://raw.githubusercontent.com/GabrielBigarato/GabrielBigarato/output/github-contribution-grid-snake.svg)
+## 🐍 GitHub Snake
+
+<img src="https://raw.githubusercontent.com/GabrielBigarato/GabrielBigarato/output/github-contribution-grid-snake.svg" alt="snake gif" />
+
 
 
