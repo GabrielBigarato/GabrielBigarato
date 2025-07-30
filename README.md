@@ -22,7 +22,7 @@
   
 </div>
 
-<img src="https://raw.githubusercontent.com/GabrielBigarato/GabrielBigarato/output/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="snake gif" />
+<img src="https://raw.githubusercontent.com/GabrielBigarato/GabrielBigarato/output/github-contribution-grid-snake-dark.svg" alt="snake gif" />
 
 
 
