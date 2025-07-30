@@ -1,27 +1,28 @@
-name: Update GitHub Readme Snake
+name: Generate Snake
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # roda todo dia à meia-noite UTC
-  workflow_dispatch:     # permite rodar manualmente também
+    - cron: "0 0 * * *"  # Roda diariamente à meia-noite (UTC)
+  workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
 
-    - name: Generate contribution snake
-      uses: DenverCoder1/github-readme-snake@v1
-      with:
-        username: GabrielBigarato
-        output: github-contribution-grid-snake.svg
+      - name: Gerar animação da cobrinha
+        uses: Platane/snk@v3
+        with:
+          github_user_name: GabrielBigarato
+          outputs: |
+            dist/github-contribution-grid-snake.svg
 
-    - name: Commit updated snake SVG
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add github-contribution-grid-snake.svg
-        git commit -m "Update GitHub contribution snake" || echo "No changes to commit"
-        git push
+      - name: Commit e Push do resultado
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
